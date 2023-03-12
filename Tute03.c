@@ -13,6 +13,12 @@ sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
 int main() {
+  int n;
+
+  printf("Enter nth number : ");
+  (void) scanf("%d", &n);
+
+  printf("Sum of 1-%d : %d\n", n, (n * (n+1)) / 2);
   
   return 0;
 }
